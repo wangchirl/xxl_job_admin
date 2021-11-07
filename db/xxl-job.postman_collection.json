@@ -1,0 +1,1558 @@
+{
+	"id": "e830ef16-0783-4ed4-90e7-6b1e6dbf3cbf",
+	"name": "xxl-job",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"6f233d71-8c21-4dfa-a150-e83dd399e6fe",
+		"a55aaf04-ff9b-47f3-b93d-b5efcff5bd72",
+		"502ad8d3-b244-4d01-9c5e-705efb6f2526",
+		"b3cb4e58-4dfd-4abf-ac34-1f9bb2806c6d",
+		"33e0fdd7-a33f-4ed4-9bc1-25c8bb9d98f1",
+		"e41daf2d-fc19-4cd3-be6f-69c8b9734500",
+		"e518d3a6-fa61-4654-bf30-edac67a2e115",
+		"d9fe1164-f8e6-4a83-b303-4ca3283d1607",
+		"35ffc164-ae16-490b-a452-337251d17560",
+		"17ca8459-20ba-41b3-a8c3-bb800f307f72",
+		"f6c14385-e3d8-4243-a7f6-9ce78fbfe2e8",
+		"20e8ce31-6891-4253-a14c-b0b190966aef",
+		"1b07c84c-bcd0-4589-ad10-6e38797e6e87",
+		"97787b61-c7d7-4ae9-8cf0-5be056277e77",
+		"719adf39-9979-4149-aa62-ed52a8cdfbb9",
+		"958982d8-9fda-445f-b53c-a2a12bfc5da9",
+		"e39ffba1-1b47-4c2b-9cce-e48d66c82225",
+		"406acdb1-2c73-4be2-a235-2a70087b1e1d",
+		"e3ccb95f-0585-4873-b880-959f2ae0f12a",
+		"74ab3d7a-8e95-4cf5-a471-799e07b1e186",
+		"8024ebcd-81d1-4e4c-b0c2-9ab23e80a139",
+		"239a18c9-1094-442d-8b15-0335cae5293a",
+		"f1f1338d-4afd-4e21-a5c8-621e085bc4cb",
+		"19f6345b-6597-49d3-938c-12e2b495ec98"
+	],
+	"folders_order": [],
+	"folders": [],
+	"requests": [
+		{
+			"id": "17ca8459-20ba-41b3-a8c3-bb800f307f72",
+			"name": "009、任务管理 - 启动任务",
+			"url": "localhost:8088/pais/jobinfo/start",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "19f6345b-6597-49d3-938c-12e2b495ec98",
+			"name": "022、执行器管理 - 注册节点",
+			"url": "localhost:8088/pais/jobgroup/loadById",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "1b07c84c-bcd0-4589-ad10-6e38797e6e87",
+			"name": "012、调度日志 - 初始化数据",
+			"url": "localhost:8088/pais/joblog/init",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Cookie",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "20e8ce31-6891-4253-a14c-b0b190966aef",
+			"name": "011、任务管理 - 下一次执行时间",
+			"url": "localhost:8088/pais/jobinfo/nextTriggerTime",
+			"description": "",
+			"data": [
+				{
+					"key": "scheduleType",
+					"value": "CRON",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleConf",
+					"value": "0 0 0 * * ? *",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "239a18c9-1094-442d-8b15-0335cae5293a",
+			"name": "021、执行器管理 - 更新执行器",
+			"url": "localhost:8088/pais/jobgroup/update?appname=aaaa&title=wwww&addressType=1&addressList=http://127.0.0.1:9992&id=2",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "appname",
+					"value": "aaaa",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "wwww",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addressType",
+					"value": "1",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addressList",
+					"value": "http://127.0.0.1:9992",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "2",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "33e0fdd7-a33f-4ed4-9bc1-25c8bb9d98f1",
+			"name": "005、任务管理 - 新增任务",
+			"url": "localhost:8088/pais/jobinfo/save",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobDesc",
+					"value": "测试任务1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "王钦",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alarmEmail",
+					"value": "438111969@qq.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleType",
+					"value": "CRON",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleConf",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cronGen_display",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_CRON",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_RATE",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_DELAY",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "glueType",
+					"value": "BEAN",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorHandler",
+					"value": "demoJobHandler",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorParam",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorRouteStrategy",
+					"value": "FIRST",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "childJobId",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "misfireStrategy",
+					"value": "DO_NOTHING",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorBlockStrategy",
+					"value": "SERIAL_EXECUTION",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorTimeout",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorFailRetryCount",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "glueRemark",
+					"value": "GLUE代码初始化",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "glueSource",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Cookie",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "35ffc164-ae16-490b-a452-337251d17560",
+			"name": "008、任务管理 - 停止任务",
+			"url": "localhost:8088/pais/jobinfo/stop?id=1",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "406acdb1-2c73-4be2-a235-2a70087b1e1d",
+			"name": "017、调度日志 - 停止执行",
+			"url": "localhost:8088/pais/joblog/logKill",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "502ad8d3-b244-4d01-9c5e-705efb6f2526",
+			"name": "003、任务管理 - 初始化数据",
+			"url": "localhost:8088/pais/jobinfo/init",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "93229b414f87234ff6f326c70951a4f9"
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: 93229b414f87234ff6f326c70951a4f9\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "6f233d71-8c21-4dfa-a150-e83dd399e6fe",
+			"name": "001、首页 - 初始化数据",
+			"url": "localhost:8088/pais/index/init",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"key": "Cookie",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "719adf39-9979-4149-aa62-ed52a8cdfbb9",
+			"name": "014、调度日志 - 分页查询",
+			"url": "localhost:8088/pais/joblog/pageList",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobId",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "logStatus",
+					"value": "-1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "filterTime",
+					"value": "2021-11-06 00:00:00 - 2021-11-06 23:59:59",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "length",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "74ab3d7a-8e95-4cf5-a471-799e07b1e186",
+			"name": "019、执行器管理 - 分页查询",
+			"url": "localhost:8088/pais/jobgroup/pageList?appname=&title=&start=0&length=10",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "appname",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "start",
+					"value": "0",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "length",
+					"value": "10",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "8024ebcd-81d1-4e4c-b0c2-9ab23e80a139",
+			"name": "020、执行器管理 - 新增执行器",
+			"url": "localhost:8088/pais/jobgroup/save?appname=aaaae&title=wwwwq&addressType=1&addressList=http://127.0.0.1:9999",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "appname",
+					"value": "aaaae",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "title",
+					"value": "wwwwq",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addressType",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "addressList",
+					"value": "http://127.0.0.1:9999",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "958982d8-9fda-445f-b53c-a2a12bfc5da9",
+			"name": "015、调度日志 - 执行日志主页",
+			"url": "localhost:8088/pais/joblog/logDetailPage?id=1",
+			"description": "",
+			"data": [],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"key": "Cookie",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "token",
+					"value": "f1f40b524aa809d3be9adfb36d225015",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "97787b61-c7d7-4ae9-8cf0-5be056277e77",
+			"name": "013、调度日志 - 任务分组",
+			"url": "localhost:8088/pais/joblog/getJobsByGroup",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "a55aaf04-ff9b-47f3-b93d-b5efcff5bd72",
+			"name": "002、首页 - 图表数据",
+			"url": "localhost:8088/pais/index/chartInfo",
+			"description": "",
+			"data": [
+				{
+					"key": "startDate",
+					"value": "2021-10-30 00:00:00",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "endDate",
+					"value": "2021-11-06 23:59:59",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b3cb4e58-4dfd-4abf-ac34-1f9bb2806c6d",
+			"name": "004、任务管理 - 分页查询",
+			"url": "localhost:8088/pais/jobinfo/pageList",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "triggerStatus",
+					"value": "-1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobDesc",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorHandler",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "start",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "length",
+					"value": "10",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=90CA381C6CA077032F6678D473C903F6; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=93229b414f87234ff6f326c70951a4f9"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "93229b414f87234ff6f326c70951a4f9"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=90CA381C6CA077032F6678D473C903F6; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=93229b414f87234ff6f326c70951a4f9\ntoken: 93229b414f87234ff6f326c70951a4f9\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "d9fe1164-f8e6-4a83-b303-4ca3283d1607",
+			"name": "007、任务管理 - 删除任务",
+			"url": "localhost:8088/pais/jobinfo/remove",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "2",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e39ffba1-1b47-4c2b-9cce-e48d66c82225",
+			"name": "016、调度日志 - 执行日志 - 滚动日志",
+			"url": "localhost:8088/pais/joblog/logDetailCat?executorAddress=http://10.0.0.1:9999/&triggerTime=1636211717000&logId=2&fromLineNum=1",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "executorAddress",
+					"value": "http://10.0.0.1:9999/",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "triggerTime",
+					"value": "1636211717000",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "logId",
+					"value": "2",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "fromLineNum",
+					"value": "1",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e3ccb95f-0585-4873-b880-959f2ae0f12a",
+			"name": "018、调度日志 - 清理日志",
+			"url": "localhost:8088/pais/joblog/clearLog?jobGroup=0&jobId=0&type=9",
+			"description": "",
+			"data": null,
+			"dataMode": null,
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [
+				{
+					"key": "jobGroup",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "jobId",
+					"value": "0",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "type",
+					"value": "9",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e41daf2d-fc19-4cd3-be6f-69c8b9734500",
+			"name": "006、任务管理 - 更新任务",
+			"url": "localhost:8088/pais/jobinfo/update",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobDesc",
+					"value": "测试任务1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "王钦啊",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alarmEmail",
+					"value": "438111969@qq.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleType",
+					"value": "CRON",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleConf",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cronGen_display",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_CRON",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_RATE",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_DELAY",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorHandler",
+					"value": "demoJobHandler",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorParam",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorRouteStrategy",
+					"value": "FIRST",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "childJobId",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "misfireStrategy",
+					"value": "DO_NOTHING",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorBlockStrategy",
+					"value": "SERIAL_EXECUTION",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorTimeout",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorFailRetryCount",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "e518d3a6-fa61-4654-bf30-edac67a2e115",
+			"name": "006、任务管理 - 复制任务",
+			"url": "localhost:8088/pais/jobinfo/save",
+			"description": "",
+			"data": [
+				{
+					"key": "jobGroup",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "jobDesc",
+					"value": "测试任务1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "author",
+					"value": "王钦啊",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "alarmEmail",
+					"value": "438111969@qq.com",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleType",
+					"value": "CRON",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "scheduleConf",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "cronGen_display",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_CRON",
+					"value": "* * * * * ?",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_RATE",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "schedule_conf_FIX_DELAY",
+					"value": " ",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorHandler",
+					"value": "demoJobHandler",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorParam",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorRouteStrategy",
+					"value": "FIRST",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "childJobId",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "misfireStrategy",
+					"value": "DO_NOTHING",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorBlockStrategy",
+					"value": "SERIAL_EXECUTION",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorTimeout",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorFailRetryCount",
+					"value": "0",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f1f1338d-4afd-4e21-a5c8-621e085bc4cb",
+			"name": "022、执行器管理 - 删除执行器",
+			"url": "localhost:8088/pais/jobgroup/remove",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "3",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "f6c14385-e3d8-4243-a7f6-9ce78fbfe2e8",
+			"name": "010、任务管理 - 执行任务",
+			"url": "localhost:8088/pais/jobinfo/trigger",
+			"description": "",
+			"data": [
+				{
+					"key": "id",
+					"value": "1",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "executorParam",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				},
+				{
+					"key": "addressList",
+					"value": "",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"dataMode": "params",
+			"headerData": [
+				{
+					"description": "",
+					"enabled": true,
+					"key": "Cookie",
+					"type": "text",
+					"value": "JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015"
+				},
+				{
+					"description": "",
+					"enabled": true,
+					"key": "token",
+					"type": "text",
+					"value": "f1f40b524aa809d3be9adfb36d225015"
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"headers": "Cookie: JSESSIONID=2ACAA67070CF9F3875B7D500206953B7; ts_uid=4013213600; XXL_JOB_LOGIN_IDENTITY=7b226964223a312c22757365726e616d65223a2261646d696e222c2270617373776f7264223a226531306164633339343962613539616262653536653035376632306638383365222c22726f6c65223a312c227065726d697373696f6e223a6e756c6c7d; token=f1f40b524aa809d3be9adfb36d225015\ntoken: f1f40b524aa809d3be9adfb36d225015\n",
+			"pathVariables": {}
+		}
+	]
+}
